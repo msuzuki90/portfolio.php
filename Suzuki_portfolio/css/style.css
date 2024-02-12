@@ -1,0 +1,69 @@
+/* TEXT FONT */
+
+.title-font{
+  font-family: 'Single Day', cursive;
+  color: #F4E869;
+  font-size: 3rem;
+}
+
+.nav-font{
+  font-family: 'Single Day', cursive;
+  font-size: 1.5rem;
+}
+
+.section-title{
+  font-family:'Roboto Slab', serif ;
+  font: 2rem;
+  color: #000;
+  
+}
+
+.main-font{
+  font-family:'Roboto Slab', serif ;
+  font-size: 1rem;
+
+}
+/* BACKGROUND STUFF */
+.bg-intro{
+    background-image: url(../img/astronaut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    position: inherit;
+}
+
+.bg-main{
+  background-color: #CEE6F3;
+}
+/* BUTTON */
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+  /* CARD HOVER */
